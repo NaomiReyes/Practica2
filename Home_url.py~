@@ -1,0 +1,6 @@
+#hay que copiar el url.py de Proyecto 1 a Home
+#Despues en setting tenemos que poner 'Home', en la parte de programas instalados.
+from . import views
+urlpatterns=[
+    path('', views.index, name='home'),
+]
