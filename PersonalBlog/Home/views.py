@@ -5,5 +5,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return render(request, 'Home/index.html')
+    contex={}
+    template= 'Home/index.html'
+    return render(request, template, contex)
 
