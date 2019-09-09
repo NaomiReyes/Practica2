@@ -1,0 +1,21 @@
+{% extends "Home/base.html" %}
+
+
+{% block css_content %}
+
+{% load static %}
+<link rel="stylesheet" href={% static "Home/title_red.css" %}>
+
+{% endblock %}
+
+
+{% block body_content %}
+<center>
+  <h1>About me</h1>
+  <img src="../../static/Home/Naomi.jpg" width="150px">
+  <br><h4>  Mi nombre es Naomi,tengo 21 años y estudio la carrera de Ciencias de la Computacion.</h4></br>
+  <br><h4>Los campos que me interesan a la fecha son la logica, la computacion distribuida y Lenguajes de Programacion</h4></br>
+  
+</center>
+
+{% endblock %}
